@@ -1,4 +1,4 @@
-package com.developermobile.dslist.resource;
+package com.developermobile.dslist.controllers;
 
 import com.developermobile.dslist.dto.GameDTO;
 import com.developermobile.dslist.dto.GameMinDTO;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 @RestController
 @RequestMapping("/games")
-public class GameResource {
+public class GameController {
     @Autowired
     private GameService service;
 
