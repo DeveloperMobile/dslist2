@@ -1,7 +1,6 @@
 package com.developermobile.dslist.services;
 
 import com.developermobile.dslist.dto.GameListDTO;
-import com.developermobile.dslist.entities.GameList;
 import com.developermobile.dslist.repositories.GameListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
